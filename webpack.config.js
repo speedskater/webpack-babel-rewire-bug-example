@@ -16,10 +16,7 @@ const config = {
         test: /\.js$/,
         cacheDirectory: true,
         exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: [ 'es2015', 'stage-1' ],
-        },
+        loader: 'babel'
       },
     ],
   },
